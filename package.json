@@ -5,8 +5,9 @@
   "main": "api/server.js",
   "devDependencies": {},
   "scripts": {
-    "server": "nodemon ./api/server.js",
     "start": "node api/server.js",
+    "starts": "nodemon ./api/server.js"
+
   },
   "keywords": [],
   "author": "",
@@ -30,6 +31,6 @@
     "nodemon": "^2.0.19"
   },
   "engines": {
-    "node": ">=18.12.1"
+    "node": "18.12.1"
   }
 }
